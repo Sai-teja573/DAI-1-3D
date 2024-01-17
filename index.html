@@ -1,39 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./analog-clock-img.png">
-    <link rel="stylesheet" href="./style.css" />
-    <title>Analog Clock</title>
+   <meta charset="utf-8">
+   <title>3D Layered Hover Effect</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   <link rel="stylesheet" href="style.css"/>
+    
 </head>
+<!-- Analog Clock Code (code1) -->
+<div class="container">
+   <div class="clock">
+      <div style="--clr: #ff3d58; --h: 64px; --w: 5px; " id="hour" class="hand"><i></i></div>
+      <div style="--clr: #00a6ff; --h: 94px; --w: 4px; " id="min" class="hand"><i></i></div>
+      <div style="--clr: #ffffff; --h: 104px; --w: 2px; " id="sec" class="hand"><i></i></div>
+
+      <span style="--i: 1;"><b>1</b></span>
+      <span style="--i: 2;"><b>2</b></span>
+      <span style="--i: 3;"><b>3</b></span>
+      <span style="--i: 4;"><b>4</b></span>
+      <span style="--i: 5;"><b>5</b></span>
+      <span style="--i: 6;"><b>6</b></span>
+      <span style="--i: 7;"><b>7</b></span>
+      <span style="--i: 8;"><b>8</b></span>
+      <span style="--i: 9;"><b>9</b></span>
+      <span style="--i: 10;"><b>10</b></span>
+      <span style="--i: 11;"><b>11</b></span>
+      <span style="--i: 12;"><b>12</b></span>
+   </div>
+</div>
+
+
 
 <body>
-    <div class="container">
-        <div class="clock">
-            <div style="--clr: #ff3d58; --h: 64px; --w: 5px; " id="hour" class="hand"><i></i></div>
-            <div style="--clr: #00a6ff; --h: 94px; --w: 4px; " id="min" class="hand"><i></i></div>
-            <div style="--clr: #ffffff; --h: 104px; --w: 2px; " id="sec" class="hand"><i></i></div>
+   <div class="icons">
+      <a href="#">
+         <div class="layer">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="fab fa-facebook-f"></span>
+         </div>
+         <div class="text">
+            Facebook
+         </div>
+      </a>
+      <a href="#">
+         <div class="layer">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="fab fa-twitter"></span>
+         </div>
+         <div class="text">
+            Twitter
+         </div>
+      </a>
+      <a href="#">
+         <div class="layer">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="fab fa-instagram"></span>
+         </div>
+         <div class="text">
+            Instagram
+         </div>
+      </a>
+      <a href="#">
+         <div class="layer">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="fab fa-linkedin-in"></span>
+         </div>
+         <div class="text">
+            Linkedin
+         </div>
+      </a>
+      <a href="#">
+         <div class="layer">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="fab fa-youtube"></span>
+         </div>
+         <div class="text">
+            YouTube
+         </div>
+      </a>
+   </div>
+   
+   
+   
+   <!-- Footer -->
+   <footer>
+      <div>
+         <h1>@saiteja</h1>
+      </div>
+      <style>
+         footer {
+            text-align: center;
+            padding: 10px;
+         }
 
-            <span style="--i: 1;"><b>1</b></span>
-            <span style="--i: 2;"><b>2</b></span>
-            <span style="--i: 3;"><b>3</b></span>
-            <span style="--i: 4;"><b>4</b></span>
-            <span style="--i: 5;"><b>5</b></span>
-            <span style="--i: 6;"><b>6</b></span>
-            <span style="--i: 7;"><b>7</b></span>
-            <span style="--i: 8;"><b>8</b></span>
-            <span style="--i: 9;"><b>9</b></span>
-            <span style="--i: 10;"><b>10</b></span>
-            <span style="--i: 11;"><b>11</b></span>
-            <span style="--i: 12;"><b>12</b></span>
-           
-        </div>
-    </div>
-
-    <script src="./script.js"></script>
+         footer div {
+            color: blue; /* Set the text color to blue */
+         }
+      </style>
+   </footer>
+   <script src="script.js"></script>
 </body>
-
 </html>
